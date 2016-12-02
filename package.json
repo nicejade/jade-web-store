@@ -82,6 +82,11 @@
     "npm": ">= 3.0.0"
   },
   "devDependencies": {
-    "element-ui": "^1.0.3"
+    "element-theme": "^0.2.0",
+    "element-theme-default": "^1.0.4",
+    "element-ui": "^1.0.3",
+    "sass-loader": "^4.0.2",
+    "vue-loader": "^10.0.2",
+    "vue-router": "^2.1.1"
   }
 }

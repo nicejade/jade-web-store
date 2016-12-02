@@ -8,6 +8,12 @@ export default [{
   },
   component: resolve => require(['./views/Login'], resolve)
 }, {
+  path: '/',
+  meta: {
+    auth: false
+  },
+  component: resolve => require(['./views/Index'], resolve)
+}, {
   path: '/products',
   component: Frame,
   children: [{
